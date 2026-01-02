@@ -1,7 +1,7 @@
 // print from 1 to n with recursion
 
 function recursion(num) {
-  if (end === start) {
+  if (end < start) {
     return;
   }
   console.log(start);
